@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    height: 100%;
+}
+/* Start of Navigation Bar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin: 10px;
+    height: 60px;
+}
+.nav-link ul li{
+    display: inline-block;
+    justify-content: space-around;
+}
+.nav-link ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+    color: #000;
+    font-weight: bold;
+}
+.nav-link ul li a.active{
+    border-bottom: 1px solid #000;
+}
+.logo h2{
+    font-size: 30px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+.logo img{
+    border-radius: 50%;
+    width: 150px;
+    height: 100px;
+}
+/* End of Navbar  */
+
+/* Start of main section */
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid #000; */
+    /* margin: 10px; */
+    background-color:rgba(0, 195, 184, 0.3);
+    height: 450px;
+}
+.main-text{
+    width: 40%;
+    padding-top: 50px;
+}
+.main-text h2{
+    font-size: 40px;
+    line-height: 10px;
+    padding: 20px;
+    word-spacing: 3px;
+    line-break: 20px;
+}
+.main-text p{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 24px;
+    text-align:justify;
+    padding: 20px;
+}
+.main-text span{
+    padding-left: 20px;
+}
+.main-text span a{
+    text-decoration: none;
+    height: 30px;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    background-color: rebeccapurple;
+    margin-right: 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+.main-image{
+    width: 50%;
+}
+.main-image img{
+    width: 600px;
+    height: 300px;
+    padding-top: 80px;
+    padding-right: 50px;
+    border-radius: 30px;
+}
+
+.track-form{
+    border: 1px solid #fff;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: -40px;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px 6px;
+    background-color: #fff;
+}
+.track-form h2{
+    font-size: 40px;
+    line-height: 10px;
+    padding: 20px;
+    padding-top: 40px;
+    word-spacing: 3px;
+    line-break: 20px;
+}
+.track-form input{
+    height: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 350px;
+    padding-left: 10px;
+    background-color: rgb(240, 234, 240);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.track-form button{
+    text-align: center;
+    background-color:rgba(0, 195, 184, 0.3) ;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 50px;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.track-form button:hover{
+    background-color: #fff;
+    color:green;
+}
+
+/* End of Main Section */
+
+/* Start of Work section */
+.work{
+    margin-top: 100px;
+    text-align: center;
+   
+    
+}
+.work h2{
+    font-size: 40px;
+    line-height: 10px;
+    padding: 20px;
+    padding-top: 40px;
+    word-spacing: 3px;
+    line-break: 20px;
+    margin-bottom: 10px;
+}
+.work p{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.work-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.work-1{
+    width: 30%;
+    border: 1px solid #fff;
+    box-shadow: 6px 6px 6px 6px;
+    margin-bottom: 50px;
+    height: 450px;
+}
+.work-1 h3{
+    font-size: 20px;
+    line-height: 10px;
+    padding: 20px;
+    word-spacing: 3px;
+}
+.work-1 span{
+    padding: 10px;
+}
+.work-1 img{
+    padding-top: 50px;
+}
+
+/* End of Work Section */
+
+/* Start of Service section */
+.service{
+    background-color:rgba(0, 195, 184, 0.3);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.service-container{
+    width: 80%;
+    margin-left: 10%;
+}
+.service-1{
+    width: 20%;
+    height: 250px;
+    background-color: #fff;
+}
+.service-1 img{
+    padding-top: 5px;
+    width: 200px;
+}
+#service-1, #service-4{
+    margin-left: 50px;
+}
+#service-3,#service-6{
+    margin-right: 50px;
+}
+
+/* End of Service Section */
+
+/* Start of Cost Calculation */
+.cost{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.cost h2{
+    font-size: 40px;
+    line-height: 10px;
+    padding: 20px;
+    padding-top: 40px;
+    word-spacing: 3px;
+    line-break: 20px;
+    margin-bottom: 10px;
+}
+.cost p{
+    padding-right: 400px;
+    padding-left: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 24px;
+    text-align:justify;
+}
+.cost-container{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.cost-form input{
+    display: block;
+    margin-bottom: 10px;
+    height: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    width: 500px;
+    padding-left: 10px;
+    background-color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 0.1px solid #000;
+}
+.cost-form button{
+    text-align: center;
+    background-color:rgba(0, 195, 184, 0.3) ;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 50px;
+    width: 515px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    margin-top: 30px;
+}
+.cost-form button:hover{
+    background-color: #fff;
+    color:green;
+}
+.cost-image img{
+    width: 500px;
+    height: 280px;
+    margin-right: 200px;
+    padding-top:10px;
+}
+
+/* End of Cost Calculation */
+
+/* Start of Wwe are Growing section */
+.growing{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.grow-1{
+    height: 350px;
+}
+
+/* End of Wwe are Growing section */
+
+/* Start of Download OurcApp Growing section */
+/* .download{
+     border: 1px solid #000; 
+} */
+.download-1{
+    border: 0px solid;
+    box-shadow: none;
+    margin-right: 300px;
+}
+.download-1 img{
+    width: 500px;
+    height: 300px;
+}
+.grow-1{
+    height: 350px;
+}
+
+/* End of Download Our App section */
+
+/* Start of Contact Form */
+.contact-form{
+    border: 3px solid #fff;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: -200px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(0, 195, 185);
+    border-radius: 5px;
+    position: relative;
+}
+.contact-form form{
+    margin-left: 150px;
+}
+ .contact-form h2{
+    margin-left: 300px;
+    padding-top: 40px;
+    font-size: 40px;
+    line-height: 10px;
+    padding: 20px;
+    word-spacing: 3px;
+    line-break: 20px;
+    margin-bottom: 10px;
+    
+} 
+.contact-form input{
+    display: block;
+    margin-bottom: 10px;
+    height: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    width: 800px;
+    padding-left: 10px;
+    background-color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 0.1px solid #000;
+}
+.contact-form textarea{
+    display: block;
+    margin-bottom: 10px;
+    height: 200px;
+    margin-right: 30px;
+    margin-top: 20px;
+    width: 800px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 0.1px solid #000;
+}
+.contact-form button{
+    text-align: center;
+    color:purple;
+    font-size: 20px;
+    border-radius: 30px;
+    height: 50px;
+    width: 515px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    margin-top: 30px;
+    margin-left: 160px;
+    margin-bottom: 20px;
+}
+.contact-form button:hover{
+    background-color: purple;
+    color: #fff;
+}
+
+/* End of Contact Form */
+
+/* start of footer section */
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-top: -150px;
+    margin-right: 40px;
+    background-color: #000;
+    color: #fff;
+
+}
+.our-logo,.our-services,.our-company,.our-links{
+    margin-top: 200px;
+    margin-bottom: 40px;
+}
+.our-logo{
+    padding-left: 50px;
+}
+.our-links{
+    padding-right: 50px;
+}
+.footer-container ul li{
+    list-style-type: none;
+    padding-top: 4px;
+}
+.footer-container h5{
+    padding-top: 4px;
+    font-size: 16px;
+}
+.footer-container a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-container a:hover{
+    color: #000;
+    background-color: #fff;
+}
+/* End of footer section */
